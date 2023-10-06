@@ -15,8 +15,8 @@ Configures Codespace to authenticate with Azure Artifact feeds
 
 | Options Id | Description | Type | Default Value |
 |-----|-----|-----|-----|
-| nugetURIPrefixes | Nuget URI Prefixes | string | https://pkgs.dev.azure.com/ |
-| dotnet6 | Use .NET 6 Runtime | boolean | false |
+| nugetURIPrefixes | A XXX seperated list of NuGet URI prefixes this plugin should handle auth for | string | https://pkgs.dev.azure.com/ |
+| dotnet6 | 🤷🏻 | boolean | false |
 | dotnetAlias | Create alias for dotnet | boolean | true |
 | nugetAlias | Create alias for nuget | boolean | true |
 | npmAlias | Create alias for npm | boolean | true |
